@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJS site builder</title>
+  </head>
+  <body class="body">
+    <section class="cards">
+      <div class="cards__container">
+        <h1 class="cards__title">EJS site builder</h1>
+        <div class="cards__grid" id="test">
+          <%= require('@templates/cards.ejs')({ data: sitiesEurope }) %> <%=
+          require('@templates/cards.ejs')({ data: sitiesAsia }) %>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

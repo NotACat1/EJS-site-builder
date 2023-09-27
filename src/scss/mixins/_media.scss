@@ -1,0 +1,19 @@
+@import '@scss/varibles/breakpoints';
+
+@mixin media($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint #{$breakpoint} не найден в переменной $breakpoints";
+  }
+}
+
+@mixin media-breakpoint-up($breakpoint) {
+  $min-width: map-get($breakpoints, $breakpoint);
+
+  @media (min-width: $min-width) {
+    @content;
+  }
+}

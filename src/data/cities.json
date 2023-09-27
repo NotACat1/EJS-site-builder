@@ -1,0 +1,46 @@
+{
+  "europe": [
+    {
+      "name": "Париж",
+      "imgPath": "https://sportishka.com/uploads/posts/2022-04/1650539870_18-sportishka-com-p-parizh-dostoprimechatelnosti-krasivo-foto-19.jpg",
+      "description": "Париж&nbsp;&mdash; столица Франции, город искусства и&nbsp;любви, известен своими историческими памятниками и&nbsp;прекрасной архитектурой."
+    },
+    {
+      "name": "Рим",
+      "imgPath": "https://fikiwiki.com/uploads/posts/2022-02/1644857586_10-fikiwiki-com-p-krasivie-kartinki-rima-12.jpg",
+      "description": "Рим&nbsp;&mdash; вечный город, который был центром Римской империи, с&nbsp;изумительными археологическими находками и&nbsp;прекрасными площадями."
+    },
+    {
+      "name": "Барселона",
+      "imgPath": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663432767_3-mykaleidoscope-ru-p-barselona-stolitsa-katalonii-pinterest-3.jpg",
+      "description": "Барселона&nbsp;&mdash; культурная столица Каталонии, известна своими работы Гауди и&nbsp;прекрасными пляжами у&nbsp;Средиземного моря."
+    },
+    {
+      "name": "Прага",
+      "imgPath": "https://w-dog.ru/wallpapers/2/2/503964941023421/praga-chexiya-maj-2015-g-utro.jpg",
+      "description": "Прага&nbsp;&mdash; столица Чехии, средневековый город с&nbsp;красивыми замками и&nbsp;мостами через Влтаву."
+    }
+  ],
+  "asia": [
+    {
+      "name": "Токио",
+      "imgPath": "https://avatars.mds.yandex.net/i?id=69d20e19234cda4e5fd834fc0d6c21ef0e4f4d4d-9093405-images-thumbs&n=13",
+      "description": "Токио&nbsp;&mdash; столица Японии, современный город с&nbsp;высокими небоскребами, технологическими инновациями и&nbsp;традиционной культурой."
+    },
+    {
+      "name": "Сеул",
+      "imgPath": "https://avatars.mds.yandex.net/i?id=c266a7d98794521752c2545da774381417d8b56f-9181139-images-thumbs&n=13",
+      "description": "Сеул&nbsp;&mdash; столица Южной Кореи, город с&nbsp;современными технологиями, богатой культурой и&nbsp;красивыми дворцами."
+    },
+    {
+      "name": "Бангкок",
+      "imgPath": "https://avatars.mds.yandex.net/i?id=e6bb159d2cef33115419be4091bacbeefad0383b-9095672-images-thumbs&n=13",
+      "description": "Бангкок&nbsp;&mdash; столица Таиланда, пульсирующий город с&nbsp;красочными рынками, древними храмами и&nbsp;вкусной уличной едой."
+    },
+    {
+      "name": "Дубай",
+      "imgPath": "https://avatars.mds.yandex.net/i?id=bd8e669e77e1c37400dea2bb4cfe85b9ddd00999-9694985-images-thumbs&n=13",
+      "description": "Дубай&nbsp;&mdash; город будущего, известный своими невероятными небоскребами, роскошными торговыми центрами и&nbsp;пустынными приключениями."
+    }
+  ]
+}
