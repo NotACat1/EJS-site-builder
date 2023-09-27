@@ -1,0 +1,47 @@
+@import '@scss/varibles/color';
+@import '@scss/mixins/block';
+@import '@scss/mixins/container';
+@import '@scss/mixins/media';
+@import '@scss/mixins/text';
+
+.cards {
+  @include block-reset;
+
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 100%;
+
+  @include media(md) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  &__container {
+    @include container-max-widths;
+  }
+
+  &__title {
+    @include text-reset;
+    @include text-h2;
+
+    color: $color-main;
+    margin-bottom: 45px;
+
+    @include media(md) {
+      @include text-h3;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__grid {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, 344px);
+
+    @include media(md) {
+      gap: 24px;
+      grid-template-columns: repeat(auto-fill, 328px);
+    }
+  }
+}
