@@ -1,0 +1,12 @@
+<% data.forEach(function(item) { %>
+<article class="card">
+  <div
+    class="card__img"
+    style="background-image: url('<%= item.imgPath %>')"
+  ></div>
+  <div class="card__info">
+    <h2 class="card__title"><%- item.name %></h2>
+    <p class="card__text"><%- item.description %></p>
+  </div>
+</article>
+<% }); %>
