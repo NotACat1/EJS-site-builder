@@ -59,14 +59,11 @@ module.exports = {
       },
       {
         test: /\.ejs$/,
-        loader: 'ejs-webpack-loader',
-        options: {
-          esModule: false,
-        },
+        loader: 'ejs-webpack-loader'
       },
       {
         test: /\.(png|jpe?g|gif|svg|bmp|tiff?|ico|webp)$/i,
-        type: 'asset/resource',
+				type: 'asset/resource',
         generator: {
           filename: 'img/[hash][ext][query]',
         },
